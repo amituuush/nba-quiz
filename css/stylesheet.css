@@ -15,7 +15,7 @@ body {
 .container {
 	background: #fff;
 	width: 40em;
-	height: 27em;
+	height: 28em;
 	margin: 60px auto 0 auto;
 	text-align: center;
 	padding: 50px;
@@ -23,6 +23,41 @@ body {
 	box-shadow: -1px 1px 2px #202020;
 
 }
+
+.radio-container {
+	background: white;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.landing {
+	display: none;
+}
+
+.question-1 {
+	display: none;
+}
+
+.question-2 {
+	display: none;
+}
+
+.question-3 {
+	display: none;
+}
+
+.question-4 {
+	display: none;
+}
+
+.question-5 {
+	display: none;
+}
+
+/*.score-page {
+	display: none;
+}*/
+
 
 header.landing-header {
 	font-size: 50px;
@@ -35,7 +70,45 @@ h1.landing-subheader {
 	font-weight: 300;
 }
 
-button.start-button {
+h1.score-subheader {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+h1.question-text {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 20px;
+}
+
+h1.question-number {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: left;
+	/*padding-left: 20px;*/
+}
+
+h1.question-text {
+	font-size: 30px;
+	font-weight: 300;
+	text-align: left;
+	padding-left: 0px;
+	padding-bottom: 30px;
+}
+
+.score-text {
+	font-size: 50px;
+	font-weight: 400;
+}
+
+.divider {
+	height: 1px;
+	width: 100%;
+	background: #ddd;
+}
+
+.start-button, .try-again-button {
 	background: #E31A4C;
 	color: #fff;
 	padding: 20px 70px;
@@ -45,26 +118,68 @@ button.start-button {
 	box-shadow: -1px 1px 0.5px #202020;
 }
 
-.start-button:hover {
+.start-button:hover, .try-again-button:hover {
 	transition: 0.5s;
 	box-shadow: -3px 3px 5px #202020;
 }
 
-/*.start-button:active {
+/*.start-button:active, .try-again-button:active; {
 	background: #cc1744;
 	box-shadow: inset 1px 1px 1px #202020;
 }*/
 
-.start-button:focus {
+.start-button:focus, .try-again-button:focus {
 	outline: none;
 }
 
+.try-again-button {
+	margin-top: 30px;
+}
 
+input.next-button {
+	background: #E31A4C;
+	color: #fff;
+	padding: 12px 45px;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	box-shadow: -1px 1px 0.5px #202020;
+	float: right;
+	margin-top: 20px;
+}
 
+.next-button:hover {
+	background: #ca1b47;
+}
 
+.next-button:active {
+	position: relative;
+	right: 1px;
+	top: 1px;
+	box-shadow: none;
+}
 
+.next-button:focus {
+	outline: none;
+	
+}
 
+/* Form Styling ---------------------------
+-----------------------------------------*/
 
+input[type="radio"] {
+
+}
+
+input[type="radio"] + label {
+	font-size: 24px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+input {
+	vertical-align: middle;
+}
 
 
 
