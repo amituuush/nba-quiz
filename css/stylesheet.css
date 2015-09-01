@@ -1,0 +1,71 @@
+body {
+	background: #0E67A6;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.main-logo {
+	width: 125px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+}
+
+.container {
+	background: #fff;
+	width: 40em;
+	height: 27em;
+	margin: 60px auto 0 auto;
+	text-align: center;
+	padding: 50px;
+	border-radius: 5px;
+	box-shadow: -1px 1px 2px #202020;
+
+}
+
+header.landing-header {
+	font-size: 50px;
+	padding-bottom: 25px;
+}
+
+h1.landing-subheader {
+	font-size: 30px;
+	padding-bottom: 65px;
+	font-weight: 300;
+}
+
+button.start-button {
+	background: #E31A4C;
+	color: #fff;
+	padding: 20px 70px;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	box-shadow: -1px 1px 0.5px #202020;
+}
+
+.start-button:hover {
+	transition: 0.5s;
+	box-shadow: -3px 3px 5px #202020;
+}
+
+/*.start-button:active {
+	background: #cc1744;
+	box-shadow: inset 1px 1px 1px #202020;
+}*/
+
+.start-button:focus {
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
