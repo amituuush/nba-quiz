@@ -30,35 +30,6 @@ body {
 	margin: 0 auto;
 }
 
-.landing {
-	display: none;
-}
-
-.question-1 {
-	display: none;
-}
-
-.question-2 {
-	display: none;
-}
-
-.question-3 {
-	display: none;
-}
-
-.question-4 {
-	display: none;
-}
-
-.question-5 {
-	display: none;
-}
-
-/*.score-page {
-	display: none;
-}*/
-
-
 header.landing-header {
 	font-size: 50px;
 	padding-bottom: 25px;
